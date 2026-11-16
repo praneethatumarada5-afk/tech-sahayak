@@ -1,0 +1,45 @@
+{
+  "_comment": "Maps TechSahayak DB values to app knowledge pages. category_slug / lesson_slugs must match rows in the database (see suggested_db_seed.sql for the rows that do not exist yet). aliases are matched case-insensitively inside the learner's message to detect which app they are talking about.",
+  "apps": [
+    {
+      "slug": "phonepe",
+      "name": "PhonePe",
+      "kind": "UPI payments app",
+      "category_slug": "digital-payments",
+      "lesson_slugs": ["make-upi-payment"],
+      "file": "phonepe.md",
+      "official_site": "phonepe.com",
+      "aliases": ["phonepe", "phone pe", "फोनपे", "फ़ोनपे", "ফোনপে", "ஃபோன்பே", "போன்பே", "ఫోన్‌పే", "ఫోన్ పే", "फोन पे"]
+    },
+    {
+      "slug": "flipkart",
+      "name": "Flipkart",
+      "kind": "online shopping app",
+      "category_slug": "shopping",
+      "lesson_slugs": ["order-on-flipkart"],
+      "file": "flipkart.md",
+      "official_site": "flipkart.com",
+      "aliases": ["flipkart", "flip kart", "फ्लिपकार्ट", "ফ্লিপকার্ট", "ஃப்ளிப்கார்ட்", "ఫ్లిప్‌కార్ట్", "ఫ్లిప్ కార్ట్"]
+    },
+    {
+      "slug": "rapido",
+      "name": "Rapido",
+      "kind": "bike, auto and cab ride app",
+      "category_slug": "travel",
+      "lesson_slugs": ["book-rapido-ride"],
+      "file": "rapido.md",
+      "official_site": "rapido.bike",
+      "aliases": ["rapido", "रैपिडो", "रापिडो", "র‍্যাপিডো", "ராபிடோ", "రాపిడో"]
+    },
+    {
+      "slug": "swiggy",
+      "name": "Swiggy",
+      "kind": "food and grocery delivery app",
+      "category_slug": "food-delivery",
+      "lesson_slugs": ["order-on-swiggy"],
+      "file": "swiggy.md",
+      "official_site": "swiggy.com",
+      "aliases": ["swiggy", "swigy", "instamart", "स्विगी", "স্যুইগি", "সুইগি", "ஸ்விகி", "స్విగ్గీ", "स्विग्गी"]
+    }
+  ]
+}

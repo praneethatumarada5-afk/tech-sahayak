@@ -1,0 +1,41 @@
+{
+  "_comment": "Mirrors the `languages` table seed in techsahayak.sql (language_id, code, name, native_name). speech_locale is for the frontend's browser speech recognition and text-to-speech. greeting*/fallback_error are static (no API call needed). {{name}} and {{app}} are filled in by code.",
+  "languages": [
+    {
+      "language_id": 1, "code": "en", "name": "English", "native_name": "English", "speech_locale": "en-IN",
+      "greeting_with_app": "Hello {{name}}! I am Sahayak, your helper. I will guide you through {{app}} slowly, one small step at a time. What would you like to learn first?",
+      "greeting_no_app": "Hello {{name}}! I am Sahayak, your helper. Which app would you like to learn today: PhonePe, Flipkart, Rapido or Swiggy?",
+      "fallback_error": "Sorry, I am having a little trouble right now. Please try again in a minute. Nothing has changed in any of your accounts."
+    },
+    {
+      "language_id": 2, "code": "hi", "name": "Hindi", "native_name": "हिन्दी", "speech_locale": "hi-IN",
+      "greeting_with_app": "नमस्ते {{name}} जी! मैं सहायक हूँ। मैं आपको {{app}} धीरे-धीरे, एक-एक छोटे कदम में सिखाऊँगा। आप सबसे पहले क्या सीखना चाहेंगे?",
+      "greeting_no_app": "नमस्ते {{name}} जी! मैं सहायक हूँ। आज आप कौन सा ऐप सीखना चाहेंगे: PhonePe, Flipkart, Rapido या Swiggy?",
+      "fallback_error": "माफ़ कीजिए, अभी थोड़ी दिक्कत आ रही है। कृपया एक मिनट बाद फिर कोशिश करें। आपके किसी भी खाते में कुछ नहीं बदला है।"
+    },
+    {
+      "language_id": 3, "code": "bn", "name": "Bengali", "native_name": "বাংলা", "speech_locale": "bn-IN",
+      "greeting_with_app": "নমস্কার {{name}}! আমি সহায়ক। আমি আপনাকে {{app}} ধীরে ধীরে, ছোট ছোট ধাপে শেখাব। আপনি প্রথমে কী শিখতে চান?",
+      "greeting_no_app": "নমস্কার {{name}}! আমি সহায়ক। আজ আপনি কোন অ্যাপটি শিখতে চান: PhonePe, Flipkart, Rapido না Swiggy?",
+      "fallback_error": "দুঃখিত, এখন একটু সমস্যা হচ্ছে। অনুগ্রহ করে এক মিনিট পরে আবার চেষ্টা করুন। আপনার কোনো অ্যাকাউন্টে কিছু বদলায়নি।"
+    },
+    {
+      "language_id": 4, "code": "ta", "name": "Tamil", "native_name": "தமிழ்", "speech_locale": "ta-IN",
+      "greeting_with_app": "வணக்கம் {{name}}! நான் சகாயக். {{app}} செயலியை மெதுவாக, சிறு சிறு படிகளாக உங்களுக்குக் கற்றுத் தருவேன். முதலில் எதைக் கற்றுக்கொள்ள விரும்புகிறீர்கள்?",
+      "greeting_no_app": "வணக்கம் {{name}}! நான் சகாயக். இன்று எந்தச் செயலியைக் கற்றுக்கொள்ள விரும்புகிறீர்கள்: PhonePe, Flipkart, Rapido அல்லது Swiggy?",
+      "fallback_error": "மன்னிக்கவும், இப்போது சிறிய சிக்கல் உள்ளது. ஒரு நிமிடம் கழித்து மீண்டும் முயற்சி செய்யுங்கள். உங்கள் எந்தக் கணக்கிலும் எதுவும் மாறவில்லை."
+    },
+    {
+      "language_id": 5, "code": "te", "name": "Telugu", "native_name": "తెలుగు", "speech_locale": "te-IN",
+      "greeting_with_app": "నమస్కారం {{name}} గారు! నేను సహాయక్. {{app}} ని నెమ్మదిగా, చిన్న చిన్న అడుగులతో మీకు నేర్పిస్తాను. ముందుగా ఏమి నేర్చుకోవాలనుకుంటున్నారు?",
+      "greeting_no_app": "నమస్కారం {{name}} గారు! నేను సహాయక్. ఈ రోజు మీరు ఏ యాప్ నేర్చుకోవాలనుకుంటున్నారు: PhonePe, Flipkart, Rapido లేదా Swiggy?",
+      "fallback_error": "క్షమించండి, ఇప్పుడు కొంచెం ఇబ్బంది ఉంది. దయచేసి ఒక నిమిషం తర్వాత మళ్ళీ ప్రయత్నించండి. మీ ఏ ఖాతాలోనూ ఏమీ మారలేదు."
+    },
+    {
+      "language_id": 6, "code": "mr", "name": "Marathi", "native_name": "मराठी", "speech_locale": "mr-IN",
+      "greeting_with_app": "नमस्कार {{name}}! मी सहायक आहे. मी तुम्हाला {{app}} हळूहळू, एकेक छोट्या पायरीने शिकवेन. तुम्हाला आधी काय शिकायचे आहे?",
+      "greeting_no_app": "नमस्कार {{name}}! मी सहायक आहे. आज तुम्हाला कोणते ॲप शिकायचे आहे: PhonePe, Flipkart, Rapido की Swiggy?",
+      "fallback_error": "माफ करा, आत्ता थोडी अडचण येत आहे. कृपया एक मिनिटानंतर पुन्हा प्रयत्न करा. तुमच्या कोणत्याही खात्यात काहीही बदललेले नाही."
+    }
+  ]
+}

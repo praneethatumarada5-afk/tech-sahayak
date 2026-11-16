@@ -1,0 +1,5 @@
+node_modules
+.env*
+!.env.example
+techsahayak_db
+8001MOCK_LLM=1

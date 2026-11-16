@@ -1,0 +1,8 @@
+{
+  "under_18": { "label": "under 18", "note": "Younger learner. Keep it friendly, and remind them to involve a parent for any payment." },
+  "18_30": { "label": "18 to 30", "note": "Comfortable with phones. Keep it brisk and friendly." },
+  "31_50": { "label": "31 to 50", "note": "Adult learner. Keep it practical and respectful of their time." },
+  "51_65": { "label": "51 to 65", "note": "Mature learner. Be patient, avoid slang and abbreviations, and keep sentences short." },
+  "65_plus": { "label": "over 65", "note": "Senior learner. Be extra patient and warm, use the simplest words, keep sentences very short, and never rush." },
+  "unknown": { "label": "not given", "note": "Age not given. Use a patient, respectful and simple style." }
+}
